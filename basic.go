@@ -16,7 +16,7 @@ func main() {
     var x int = 5
     var y float32 = 1.63
     a,b := 100,10
-    var Name string = "salman dabbakuti"
+    var Name string = "Salman Dabbakuti"
     const pi float64 =3.145345
     isbool := true
     hi := false
@@ -25,7 +25,7 @@ func main() {
     fmt.Println("x is" ,x)
     fmt.Println("y is" ,y)
     fmt.Println("pi is" ,pi)
-    fmt.Println(math.Pi)
+    fmt.Println("Constant value of Pi is",math.Pi)
     fmt.Println("Developer Name:",Name)
     fmt.Println("a,b=",a, b)
     fmt.Println("a+b=" ,a+b)

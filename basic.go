@@ -7,6 +7,7 @@ package main
 import "fmt"
 import "time"
 import "math"
+import "math/rand"
 func add(x,y int) int {
     return (x + y)
 }
@@ -33,6 +34,7 @@ func main() {
     fmt.Println("a*b=" ,a*b)
     fmt.Println("a mod b=" ,a%b)
     fmt.Println("a/b=" ,a/b)
+    fmt.Println("My favorite number is", rand.Intn(10))
     fmt.Println(!hi)
     fmt.Println(isbool)
     result:= add(45,55)

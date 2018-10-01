@@ -13,7 +13,7 @@ func add(x,y int) int {
 }
 func main() {
     evennums := [5] int {2,4,6,8,10}
-    age := 16
+    age := 20
     var x int = 5
     var y float32 = 1.63
     a,b := 100,10
@@ -39,6 +39,11 @@ func main() {
     fmt.Println(isbool)
     result:= add(45,55)
     fmt.Println("result for add=",result)
+    Salary := make(map[string]int)
+    Salary["Rajesh"] = 12000
+    Salary["Pavan"] = 15000
+    Salary["Gopi"] = 9000
+    fmt.Println("Salaries map contents:",Salary)
     for i:=1; i<=5; i++ {
         fmt.Println("passed" ,i)
      }
